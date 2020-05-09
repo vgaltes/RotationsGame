@@ -40,7 +40,8 @@ const config = {
 			gravity: { y: 300 }
 		}
 	},
-	scene: steps
+	scene: steps,
+	parent: 'rotation-game'
 }
 
 export default new Phaser.Game(config)
