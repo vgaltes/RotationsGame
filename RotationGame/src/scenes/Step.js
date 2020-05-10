@@ -7,8 +7,6 @@ export default class Step extends Phaser.Scene
 {
     constructor(name, nameNextStep, firstOptionName, secondOptionName)
     {
-        //console.log(`Name: ${name}, NextStep: ${nameNextStep}, option1: ${firstOptionName}, option2: ${secondOptionName}`);
-        
         super(name);
         this.nameNextStep = nameNextStep;
         this.firstOptionName = firstOptionName;

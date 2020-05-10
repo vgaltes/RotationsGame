@@ -2,9 +2,10 @@ import Phaser from 'phaser'
 
 export default class End extends Phaser.Scene
 {
-    constructor()
+    constructor(numberOfScenes)
     {
         super('End');
+        this.numberOfScenes = numberOfScenes;
     }
 
     preload()
@@ -14,6 +15,11 @@ export default class End extends Phaser.Scene
 
     create()
     {
-        this.add.image(400, 300, 'end');
+        this.add.image(400, 300, 'end')
+            .setInteractive()
+            .on('pointerdown', () => {
+
+                window.location.reload();
+            });
     }
 }
