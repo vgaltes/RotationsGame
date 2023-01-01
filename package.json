@@ -13,14 +13,14 @@
 	"devDependencies": {
 		"eslint": "^6.8.0",
 		"minimist": ">=1.2.2",
-		"parcel": "^1.12.4",
+		"parcel": "^2.8.2",
 		"parcel-plugin-clean-easy": "^1.0.2",
 		"parcel-plugin-static-files-copy": "^2.2.1"
 	},
 	"dependencies": {
 		"fontawesome": "^5.6.3",
 		"jquery": "^3.5.1",
-		"phaser": "^3.23.0"
+		"phaser": "^3.55.2"
 	},
 	"parcelCleanPaths": [
 		"dist"
